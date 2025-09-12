@@ -27,25 +27,28 @@ class QTPOCWebring extends HTMLElement {
                 `
         }
         return `
-            <div style="display: flex; align-items: center; gap: 5px">
-                <a href="https://qtpoc-ring.netlify.app/previous"
+            <div style="display: flex; align-items: center">
+                <a
+                    style="margin-right: 7px"
+                    href="https://qtpoc-ring.netlify.app/previous"
                     ><img src="/assets/widget-arrow-left.png"
                 /></a>
-
                 <a href="https://qtpoc-ring.netlify.app">
                     <div style="position: relative">
                         <a href="https://qtpoc-ring.netlify.app"
                             ><img src="/assets/widget.png"
                         /></a>
                         <a
-                            style="position: absolute; right: 0px; top: 0px"
                             href="https://qtpoc-ring.netlify.app/random"
+                            style="position: absolute; right: 0px; top: 0px"
                         >
                             <img src="/assets/widget-random.png" />
                         </a>
                     </div>
                 </a>
-                <a href="https://qtpoc-ring.netlify.app/next"
+                <a
+                    style="margin-left: 7px"
+                    href="https://qtpoc-ring.netlify.app/next"
                     ><img src="/assets/widget-arrow-right.png"
                 /></a>
             </div>
