@@ -17,7 +17,7 @@ class QTPOCWebring extends HTMLElement {
                         align-items: center;
                     "
                 >
-                    <a href="https://qtpoc-ring.netlify.app"><img src="/assets/widget-simple.png" /></a>
+                    <a href="https://qtpoc-ring.netlify.app"><img src="https://qtpoc-ring.netlify.app/assets/widget-simple.png" /></a>
                     <div>
                         <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt; prev</a>
                         <a href="https://qtpoc-ring.netlify.app/random">random</a>
@@ -31,18 +31,18 @@ class QTPOCWebring extends HTMLElement {
                 <a
                     style="margin-right: 7px"
                     href="https://qtpoc-ring.netlify.app/previous"
-                    ><img src="/assets/widget-arrow-left.png"
+                    ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-left.png"
                 /></a>
                 <a href="https://qtpoc-ring.netlify.app">
                     <div style="position: relative">
                         <a href="https://qtpoc-ring.netlify.app"
-                            ><img src="/assets/widget.png"
+                            ><img src="https://qtpoc-ring.netlify.app/assets/widget.png"
                         /></a>
                         <a
                             href="https://qtpoc-ring.netlify.app/random"
                             style="position: absolute; right: 0px; top: 0px"
                         >
-                            <img src="/assets/widget-random.png" />
+                            <img src="https://qtpoc-ring.netlify.app/assets/widget-random.png" />
                         </a>
                     </div>
                 </a>
