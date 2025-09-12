@@ -36,7 +36,7 @@ export const getPrevious = url => {
 }
 
 export const getRandom = url => {
-    if (members.length <= 0) 
+    if (members.length <= 1) 
         return members[0];
     const selection = url
         ? members.filter(site => !url.includes(site.url))
