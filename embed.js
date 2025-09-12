@@ -49,7 +49,7 @@ class QTPOCWebring extends HTMLElement {
                 <a
                     style="margin-left: 7px"
                     href="https://qtpoc-ring.netlify.app/next"
-                    ><img src="/assets/widget-arrow-right.png"
+                    ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-right.png"
                 /></a>
             </div>
         `;
