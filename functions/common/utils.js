@@ -2,8 +2,13 @@ let path = require("path");
 let members = require(path.resolve("./data/members.json"));
 
 export const getVia = url => {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('via') ?? url;
+    try {
+        const urlParams = new URLSearchParams(location.search);
+        return urlParams.get('via') ?? url;
+    } catch {
+        console.log("Via link undefined.")
+        return undefined
+    }
 }
 
 export const redirect = site => {
