@@ -4,21 +4,18 @@ included_files = ["data/members.json"]
 
 [[redirects]]
 from = "/next"
-query = {via = ":via"}
-to = "/.netlify/functions/next?via=:via"
+to = "/.netlify/functions/next"
 status = 301
 force = true
 
 [[redirects]]
 from = "/previous"
-query = {via = ":via"}
-to = "/.netlify/functions/previous?via=:via"
+to = "/.netlify/functions/previous"
 status = 301
 force = true
 
 [[redirects]]
 from = "/random"
-query = {via = ":via"}
-to = "/.netlify/functions/random?via=:via"
+to = "/.netlify/functions/random"
 status = 301
 force = true
