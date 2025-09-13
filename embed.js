@@ -1,5 +1,5 @@
 class QTPOCWebring extends HTMLElement {
-    static observedAttributes = ["simple"];
+    static observedAttributes = ["simple", "via"];
 
     constructor() {
         super();
@@ -7,6 +7,8 @@ class QTPOCWebring extends HTMLElement {
     }
 
     getTemplate() {
+        const via = this.getAttribute("via");
+
         if (this.getAttribute("simple")) {
             return `
                 <div
@@ -19,9 +21,9 @@ class QTPOCWebring extends HTMLElement {
                 >
                     <a href="https://qtpoc-ring.netlify.app"><img src="https://qtpoc-ring.netlify.app/assets/widget-simple.png" /></a>
                     <div>
-                        <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt; prev</a>
-                        <a href="https://qtpoc-ring.netlify.app/random">random</a>
-                        <a href="https://qtpoc-ring.netlify.app/next">next &gt;&gt;</a>
+                        <a href="https://qtpoc-ring.netlify.app/previous${via ? `?via=${via}` : ""}">&lt;&lt; prev</a>
+                        <a href="https://qtpoc-ring.netlify.app/random${via ? `?via=${via}` : ""}">random</a>
+                        <a href="https://qtpoc-ring.netlify.app/next${via ? `?via=${via}` : ""}">next &gt;&gt;</a>
                     </div>
                 </div>
                 `
@@ -30,25 +32,23 @@ class QTPOCWebring extends HTMLElement {
             <div style="display: flex; align-items: center">
                 <a
                     style="margin-right: 7px"
-                    href="https://qtpoc-ring.netlify.app/previous"
+                    href="/previous${via ? `?via=${via}` : ""}"
                     ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-left.png"
                 /></a>
-                <a href="https://qtpoc-ring.netlify.app">
-                    <div style="position: relative">
-                        <a href="https://qtpoc-ring.netlify.app"
-                            ><img src="https://qtpoc-ring.netlify.app/assets/widget.png"
-                        /></a>
-                        <a
-                            href="https://qtpoc-ring.netlify.app/random"
-                            style="position: absolute; right: 0px; top: 0px"
-                        >
-                            <img src="https://qtpoc-ring.netlify.app/assets/widget-random.png" />
-                        </a>
-                    </div>
-                </a>
+                <div style="position: relative">
+                    <a href="https://qtpoc-ring.netlify.app"
+                        ><img src="https://qtpoc-ring.netlify.app/assets/widget.png"
+                    /></a>
+                    <a
+                        href="https://qtpoc-ring.netlify.app/random${via ? `?via=${via}` : ""}"
+                        style="position: absolute; right: 0px; top: 0px"
+                    >
+                        <img src="https://qtpoc-ring.netlify.app/assets/widget-random.png" />
+                    </a>
+                </div>
                 <a
                     style="margin-left: 7px"
-                    href="https://qtpoc-ring.netlify.app/next"
+                    href="https://qtpoc-ring.netlify.app/next${via ? `?via=${via}` : ""}"
                     ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-right.png"
                 /></a>
             </div>
