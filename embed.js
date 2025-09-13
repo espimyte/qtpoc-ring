@@ -32,7 +32,7 @@ class QTPOCWebring extends HTMLElement {
             <div style="display: flex; align-items: center">
                 <a
                     style="margin-right: 7px"
-                    href="/previous${via ? `?via=${via}` : ""}"
+                    href="https://qtpoc-ring.netlify.app/previous${via ? `?via=${via}` : ""}"
                     ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-left.png"
                 /></a>
                 <div style="position: relative">
