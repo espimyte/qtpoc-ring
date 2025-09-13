@@ -21,7 +21,7 @@ export const getNext = url => {
         const nextIndex = index < members.length - 1 ? index + 1 : 0
         return members[nextIndex]
     }
-    console.log('referrer position not found.')
+    console.log('Referrer position not found.')
     return members[0]
 }
 
@@ -31,7 +31,7 @@ export const getPrevious = url => {
         const prevIndex = index > 0 ? index - 1 : members.length - 1
         return members[prevIndex]
     }
-    console.log('referrer position not found.')
+    console.log('Referrer position not found.')
     return members[members.length-1]
 }
 
