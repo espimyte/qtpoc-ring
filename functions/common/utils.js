@@ -22,7 +22,7 @@ export const getNext = url => {
         return members[nextIndex]
     }
     console.log('Referrer position not found.')
-    return members[0]
+    return getRandom(url)
 }
 
 export const getPrevious = url => {
@@ -32,7 +32,7 @@ export const getPrevious = url => {
         return members[prevIndex]
     }
     console.log('Referrer position not found.')
-    return members[members.length-1]
+    return getRandom(url)
 }
 
 export const getRandom = url => {
