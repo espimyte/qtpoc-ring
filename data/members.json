@@ -2,12 +2,18 @@
 	{
 		"name": "espy.world",
 		"url": "https://espy.world/",
-		"desc": "Webring owner, the projects and musings of a queer vietnamese artist.",
+		"desc": "Webring owner, the projects and musings of a queer and nonbinary vietnamese artist.",
 		"button": "https://espy.world/img/button.gif"
 	},
 	{
 		"name": "Slitherbop",
 		"url": "https://slitherbop.neocities.org/",
 		"button": "https://slitherbop.neocities.org/Slitherbop_Button.gif"
+	},
+	{
+		"name": "Leilukin's Hub",
+		"url": "https://leilukin.com",
+		"button": "https://leilukin.com/assets/leilukin/Leilukins-Hub-button-88x31.png",
+		"desc": "Personal and hobby website of a Malaysian Chinese autistic and visually impaired non-binary lesbian, dedicated to queerness and various interests."
 	}
 ]
