@@ -3,6 +3,7 @@ let members = require(path.resolve("./data/members.json"));
 
 export const getVia = url => {
     try {
+        console.log(new URL(req.url).searchParams.get('via'))
         const urlParams = new URLSearchParams(location.search);
         return urlParams.get('via') ?? url;
     } catch {
