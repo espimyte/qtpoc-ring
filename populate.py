@@ -29,27 +29,28 @@ def write_table(members_json):
             button = '{}'.format(member["button"]) if 'button' in member else '/assets/blank.png'
             desc = member["desc"] if 'desc' in member else ''
 
+            member_cell = soup.new_tag("td")
+            member_links = soup.new_tag("div", attrs={"class": "member-links"})
+
             # Button
-            button_cell = soup.new_tag("td")
             button_link = soup.new_tag("a", target="_blank", href=url)
             button_image = soup.new_tag("img", src=button)
             button_link.append(button_image)
-            button_cell.append(button_link)
-            member_entry.append(button_cell)
+            member_links.append(button_link)
 
             # Link
-            link_cell = soup.new_tag("td")
             link = soup.new_tag("a", target="_blank", href=url)
             link.append(name)
-            link_cell.append(link)
-            member_entry.append(link_cell)
+            member_links.append(link)
 
             # Desc
-            desc_cell = soup.new_tag("td")
-            desc_tag = soup.new_tag("span")
-            desc_tag.append(desc)
-            desc_cell.append(desc_tag)
-            member_entry.append(desc_cell)
+            member_desc = soup.new_tag("div", attrs={"class": "member-desc"})
+            member_desc.append(desc)
+
+            member_cell.append(member_links)
+            member_cell.append(member_desc)
+
+            member_entry.append(member_cell)
 
             members_table.append(member_entry)
         
@@ -67,7 +68,6 @@ def load_members_json():
 
 def main():
     members_json = load_members_json()
-    print(members_json)
     write_table(members_json)
 
 main()
