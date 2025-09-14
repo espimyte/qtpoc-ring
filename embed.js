@@ -1,5 +1,5 @@
 class QTPOCWebring extends HTMLElement {
-    static observedAttributes = ["simple", "via"];
+    static observedAttributes = ["widget"];
 
     constructor() {
         super();
@@ -7,9 +7,9 @@ class QTPOCWebring extends HTMLElement {
     }
 
     getTemplate() {
-        const via = this.getAttribute("via");
+        const widget = this.getAttribute("widget") ?? "";
 
-        if (this.getAttribute("simple")) {
+        if (widget === "simple") {
             return `
                 <div
                     style="
@@ -21,9 +21,9 @@ class QTPOCWebring extends HTMLElement {
                 >
                     <a href="https://qtpoc-ring.netlify.app"><img src="https://qtpoc-ring.netlify.app/assets/widget-simple.png" /></a>
                     <div>
-                        <a href="https://qtpoc-ring.netlify.app/previous${via ? `?via=${via}` : ""}">&lt;&lt; prev</a>
-                        <a href="https://qtpoc-ring.netlify.app/random${via ? `?via=${via}` : ""}">random</a>
-                        <a href="https://qtpoc-ring.netlify.app/next${via ? `?via=${via}` : ""}">next &gt;&gt;</a>
+                        <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt; prev</a>
+                        <a href="https://qtpoc-ring.netlify.app/random">random</a>
+                        <a href="https://qtpoc-ring.netlify.app/next">next &gt;&gt;</a>
                     </div>
                 </div>
                 `
@@ -32,7 +32,7 @@ class QTPOCWebring extends HTMLElement {
             <div style="display: flex; align-items: center">
                 <a
                     style="margin-right: 7px"
-                    href="https://qtpoc-ring.netlify.app/previous${via ? `?via=${via}` : ""}"
+                    href="https://qtpoc-ring.netlify.app/previous"
                     ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-left.png"
                 /></a>
                 <div style="position: relative">
@@ -40,7 +40,7 @@ class QTPOCWebring extends HTMLElement {
                         ><img src="https://qtpoc-ring.netlify.app/assets/widget.png"
                     /></a>
                     <a
-                        href="https://qtpoc-ring.netlify.app/random${via ? `?via=${via}` : ""}"
+                        href="https://qtpoc-ring.netlify.app/random"
                         style="position: absolute; right: 0px; top: 0px"
                     >
                         <img src="https://qtpoc-ring.netlify.app/assets/widget-random.png" />
@@ -48,7 +48,7 @@ class QTPOCWebring extends HTMLElement {
                 </div>
                 <a
                     style="margin-left: 7px"
-                    href="https://qtpoc-ring.netlify.app/next${via ? `?via=${via}` : ""}"
+                    href="https://qtpoc-ring.netlify.app/next"
                     ><img src="https://qtpoc-ring.netlify.app/assets/widget-arrow-right.png"
                 /></a>
             </div>
