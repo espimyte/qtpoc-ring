@@ -11,14 +11,7 @@ class QTPOCWebring extends HTMLElement {
 
         if (widget === "simple") {
             return `
-                <div
-                    style="
-                        display: flex;
-                        flex-direction: column;
-                        gap: 5px;
-                        align-items: center;
-                    "
-                >
+                <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;" >
                     <a href="https://qtpoc-ring.netlify.app"><img src="https://qtpoc-ring.netlify.app/assets/widget-simple.png" /></a>
                     <div>
                         <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt; prev</a>
