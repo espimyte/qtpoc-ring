@@ -21,7 +21,7 @@ def write_table(members_json):
         members_table = soup.find(id="members-table")
         members_table.contents.clear()
 
-        for member in members_json:
+        for member in reversed(members_json):
             member_entry = soup.new_tag("tr")
 
             name = member["name"] if 'name' in member else 'N/A'
