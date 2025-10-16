@@ -21,5 +21,10 @@
 		"url": "https://weirdo.nekoweb.org",
 		"button": "https://weirdo.nekoweb.org/button.gif",
 		"desc": "Personal site made by a neurodivergent, trans, queer afro caribbean artist dedicated to showing free expression without any worry of being ridiculed."
+	},
+	{
+		"name": "Luke Davis",
+		"url": "https://lukealexdavis.co.uk",
+		"desc": "The digital home of Luke Davis: a queer Black autistic technical SEO, music producer, and blogger based in the UK"
 	}
 ]
