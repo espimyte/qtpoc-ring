@@ -38,6 +38,9 @@ def write_table(members_json):
             button_link.append(button_image)
             member_links.append(button_link)
 
+            if "button" not in member:
+                button_link['class'] = "empty"
+
             # Link
             link = soup.new_tag("a", target="_blank", href=url)
             link.append(name)
@@ -46,6 +49,9 @@ def write_table(members_json):
             # Desc
             member_desc = soup.new_tag("div", attrs={"class": "member-desc"})
             member_desc.append(desc)
+
+            if "desc" not in member:
+                member_desc["class"] = "member-desc empty"
 
             member_cell.append(member_links)
             member_cell.append(member_desc)
