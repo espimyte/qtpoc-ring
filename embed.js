@@ -21,6 +21,60 @@ class QTPOCWebring extends HTMLElement {
                 </div>
                 `
         }
+        if (widget === "bordered") {
+            return `
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    align-items: center;
+                "
+            >
+                <a href="https://qtpoc-ring.netlify.app"
+                    ><span
+                        style="
+                            display: inline-block;
+                            padding: 5px;
+                            border: 1px solid rgb(255, 255, 255);
+                            border-image: linear-gradient(
+                                180deg,
+                                rgb(226, 22, 192) 0%,
+                                rgb(242, 191, 23) 20%,
+                                rgb(223, 211, 0) 40%,
+                                rgb(157, 250, 44) 60%,
+                                rgb(12, 77, 255) 80%,
+                                rgb(104, 31, 199) 100%
+                            );
+                            border-image-slice: 1;
+                            background: black;
+                            font-weight: bold;
+                            color: yellow;
+                        "
+                        >QTPOC Webring</span
+                    ></a
+                >
+                <div>
+                    <a
+                        style="color: yellow"
+                        href="https://qtpoc-ring.netlify.app/previous"
+                        >&lt;&lt; prev</a
+                    >
+                    <a
+                        style="color: yellow"
+                        href="https://qtpoc-ring.netlify.app/random"
+                        >random</a
+                    >
+                    <a
+                        style="color: yellow"
+                        href="https://qtpoc-ring.netlify.app/next"
+                        >next &gt;&gt;</a
+                    >
+                </div>
+            </div>
+                `
+        }
+
         return `
             <div style="display: flex; align-items: center">
                 <a
