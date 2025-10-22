@@ -322,7 +322,7 @@ form .required-note, form label .req {
 .required-note {
     font-size: 0.8rem !important;
 }
-input::placeholder {
+input::placeholder, textarea::placeholder {
     color: rgba(0, 223, 167, 0.5);
 }
 form input, form textarea {
