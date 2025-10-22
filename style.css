@@ -331,6 +331,8 @@ form input, form textarea {
     background: rgb(0, 10, 0);
     border: 1px solid rgb(24, 74, 87);
     color: rgb(236, 255, 184);
+    font-size: 1rem;
+    font-family: monospace;
 }
 input:focus {
     outline: 1px solid rgb(182, 170, 0);
@@ -348,7 +350,7 @@ form input[name="description"] {
 form button {
     background-color: rgb(0, 82, 50);
     color: yellow;
-    font-family: 'Consolas';
+    font-family: monospace;
     padding: 5px;
     border-radius: 10px;
     font-size: 1rem;
