@@ -412,4 +412,7 @@ form button:hover {
     .member-links .empty {
         display: none;
     }
+    textarea[name="description"] {
+        height: 60px;
+    }
 }
