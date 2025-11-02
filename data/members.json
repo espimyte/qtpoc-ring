@@ -3,28 +3,34 @@
 		"name": "espy.world",
 		"url": "https://espy.world/",
 		"desc": "Webring owner, the projects and musings of a queer and nonbinary vietnamese artist.",
-		"button": "https://espy.world/img/button.gif"
+		"button": "/button/espyworld.gif"
 	},
 	{
 		"name": "Slitherbop",
 		"url": "https://slitherbop.neocities.org/",
-		"button": "https://slitherbop.neocities.org/Slitherbop_Button.gif"
+		"button": "/button/slitherbop.gif"
 	},
 	{
 		"name": "Leilukin's Hub",
 		"url": "https://leilukin.com/",
-		"button": "https://leilukin.com/assets/leilukin/Leilukins-Hub-button-88x31.png",
+		"button": "/button/leilukinshub.png",
 		"desc": "Personal and hobby website of a Malaysian Chinese autistic and visually impaired non-binary lesbian, dedicated to queerness and various interests."
 	},
 	{
 		"name": "Powder",
 		"url": "https://weirdo.nekoweb.org",
-		"button": "https://weirdo.nekoweb.org/button.gif",
+		"button": "/button/weirdo.gif",
 		"desc": "Personal site made by a neurodivergent, trans, queer afro caribbean artist dedicated to showing free expression without any worry of being ridiculed."
 	},
 	{
 		"name": "Luke Davis",
 		"url": "https://lukealexdavis.co.uk",
 		"desc": "The digital home of Luke Davis: a queer Black autistic technical SEO, music producer, and blogger based in the UK"
+	},
+	{
+		"name": "TERTIARYAPOCALYPSE",
+		"url": "https://tertiaryapocalypse.neocities.org",
+		"button": "/button/tertiaryapocalypse.png",
+		"desc": "personal corner of the web. i mostly use it to host creative projects, a lot of which are about queer asian americans, since... that's me!"
 	}
 ]
