@@ -100,6 +100,10 @@ code {
     padding: 10px;
     text-align: center;
 }
+#title a {
+    text-decoration: none;
+    color: transparent;
+}
 #desc {
     margin: 0;
     margin-top: 10px;
@@ -120,6 +124,12 @@ code {
     gap: 10px;
     align-items: center;
     min-height: 100dvh;
+}
+.wrapper > :last-child {
+    margin-bottom: 20px;
+}
+.wrapper > :first-child {
+    margin-top: 20px;
 }
 .container {
     width: 100%;
@@ -318,6 +328,7 @@ form label {
 }
 form .required-note, form label .req {
     color: rgb(255, 255, 255);
+    font-size: 0.8em;
 }
 .required-note {
     font-size: 0.8rem !important;
@@ -414,5 +425,11 @@ form button:hover {
     }
     textarea[name="description"] {
         height: 60px;
+    }
+    .wrapper > :last-child {
+        margin-bottom: 5px;
+    }
+    .wrapper > :first-child {
+        margin-top: 5px;
     }
 }

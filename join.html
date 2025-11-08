@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<head>
+	<meta
+		content="width=device-width, initial-scale=1.0, viewport-fit=contain"
+		name="viewport"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lemon&amp;display=swap"
+		rel="stylesheet"
+	/>
+	<link href="/style.css" rel="stylesheet" />
+	<title>QTPOC Webring</title>
+</head>
+<body>
+	<div class="wrapper">
+		<img id="progress" src="/assets/progress-button.png" />
+		<div class="buttons">
+			<!-- I (Espy) made these buttons (with the exception of the polyamory one from rainy.gay). Feel free to use them, no attribution required! It's not like I own these designs! -->
+			<img id="pride" src="/assets/pride-button.png" />
+			<img id="intersex" src="/assets/intersex-button.png" />
+			<img id="trans" src="/assets/trans-button.png" />
+			<img id="nb" src="/assets/nb-button.png" />
+			<img id="genderfluid" src="/assets/genderfluid-button.png" />
+			<img id="bi" src="/assets/bi-button.png" />
+			<img id="pan" src="/assets/pan-button.png" />
+			<img id="lesbian" src="/assets/lesbian-button.png" />
+			<img id="mlm" src="/assets/mlm-button.png" />
+			<img id="ace" src="/assets/ace-button.png" />
+			<img id="aro" src="/assets/aro-button.png" />
+			<img id="polyamory" src="/assets/polyamory-button.png" />
+			<img id="two-spirit" src="/assets/two-spirit-button.png" />
+		</div>
+		<div id="header">
+			<h1 id="title"><a href="/">QTPOC Webring</a></h1>
+			<img id="flag" src="/assets/progress-flag.png" />
+		</div>
+		<p id="desc">A webring for queer &amp; trans people of color!</p>
+		<div id="quicklinks">
+			<a href="/index.html#members">Members</a>
+			<a href="/join.html">Join</a>
+			<a href="/index.html#qna">QNA</a>
+			<a href="/index.html#affiliates">Affiliates</a>
+		</div>
+		<div class="container">
+			<h1>Rules &amp; Guidelines</h1>
+			<ol>
+				<li>
+					You should only apply if you are a queer/lgbtqia+ person of color.
+				</li>
+				<li>
+					Your website should have some content on it. Even a small amount of
+					content, like an about me, is acceptable.
+				</li>
+				<li>Your page should not promote hateful content or bigotry.</li>
+				<li>That's it!</li>
+			</ol>
+			<p>
+				Please note that you may be denied/removed for reasons not explicitly
+				stated here.
+			</p>
+		</div>
+		<div class="container">
+			<h1>Submission Form</h1>
+			<p>
+				If you wish to join, fill out the following form, and, if you've
+				provided an email, you will be notified on whether or not you've been
+				accepted.
+			</p>
+			<p class="alternative">
+				Alternatively, you can email your application directly to me at
+				<span class="email"
+					>espi<span class="e-m-a">a3645778631892l</span>myte@gm<span
+						class="i-l"
+						>y904378323124d</span
+					>ail.com</span
+				>
+				with the subject line "QTPOC Ring Application".
+			</p>
+			<form action="/success.html" method="POST" name="qtpocapp" netlify="">
+				<p>
+					<label
+						><span>Site Name <span class="req">(required)</span></span
+						><input name="sitename" required="" type="text"
+					/></label>
+				</p>
+				<p>
+					<label
+						><span>Site URL <span class="req">(required)</span></span
+						><input
+							name="siteurl"
+							placeholder="https://website.example/"
+							required=""
+							type="url"
+					/></label>
+				</p>
+				<p>
+					<label
+						>Site button URL<input
+							name="sitebuttonurl"
+							placeholder="https://website.example/button.gif"
+							type="url"
+					/></label>
+				</p>
+				<p>
+					<label
+						>Describe your site:
+						<textarea
+							name="description"
+							placeholder="(You may describe your connection to being queer/POC here if you wish.)"
+							type="text"
+						></textarea>
+					</label>
+				</p>
+				<p>
+					<label
+						>Email<input
+							name="email"
+							placeholder="example@email.com"
+							type="email"
+					/></label>
+				</p>
+				<p>
+					<label
+						>Any other notes?
+						<textarea name="notes" placeholder="" type="text"></textarea>
+					</label>
+				</p>
+				<p>
+					<button type="submit">Submit!</button>
+				</p>
+			</form>
+		</div>
+		<div class="container">
+			<h1>Widget</h1>
+			<p>
+				While you're waiting to be accepted, you can add any of the following
+				widgets somewhere accessible on your site (or you can wait until after
+				you've been accepted).
+			</p>
+			<div id="widgets">
+				<!-- Original -->
+				<div class="widget-wrapper">
+					<h3>Original</h3>
+					<div style="display: flex; align-items: center">
+						<a
+							href="https://qtpoc-ring.netlify.app/previous"
+							style="margin-right: 7px"
+							><img src="/assets/widget-arrow-left.png"
+						/></a>
+						<a href="https://qtpoc-ring.netlify.app">
+							<div style="position: relative">
+								<a href="https://qtpoc-ring.netlify.app"
+									><img src="/assets/widget.png"
+								/></a>
+								<a
+									href="https://qtpoc-ring.netlify.app/random"
+									style="position: absolute; right: 0px; top: 0px"
+								>
+									<img src="/assets/widget-random.png" />
+								</a>
+							</div>
+						</a>
+						<a
+							href="https://qtpoc-ring.netlify.app/next"
+							style="margin-left: 7px"
+							><img src="/assets/widget-arrow-right.png"
+						/></a>
+					</div>
+					<textarea>
+<qtpoc-webring>
+ <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt;</a>
+ <a href="https://qtpoc-ring.netlify.app/random">?</a>
+ <span>QTPOC Webring</span>
+ <a href="https://qtpoc-ring.netlify.app">#</a>
+ <a href="https://qtpoc-ring.netlify.app/next">&gt;&gt;</a>
+</qtpoc-webring>
+<script async="" charset="utf-8" src="https://qtpoc-ring.netlify.app/embed.js"></script>
+					</textarea
+					>
+				</div>
+				<!-- Simple -->
+				<div class="widget-wrapper">
+					<h3>Simple</h3>
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							gap: 5px;
+							align-items: center;
+						"
+					>
+						<a href="https://qtpoc-ring.netlify.app"
+							><img src="/assets/widget-simple.png"
+						/></a>
+						<div>
+							<a href="https://qtpoc-ring.netlify.app/previous"
+								>&lt;&lt; prev</a
+							>
+							<a href="https://qtpoc-ring.netlify.app/random">random</a>
+							<a href="https://qtpoc-ring.netlify.app/next">next &gt;&gt;</a>
+						</div>
+					</div>
+					<textarea>
+<qtpoc-webring widget="simple">
+ <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt;</a>
+ <a href="https://qtpoc-ring.netlify.app/random">?</a>
+ <span>QTPOC Webring</span>
+ <a href="https://qtpoc-ring.netlify.app">#</a>
+ <a href="https://qtpoc-ring.netlify.app/next">&gt;&gt;</a>
+</qtpoc-webring>
+<script async="" charset="utf-8" src="https://qtpoc-ring.netlify.app/embed.js"></script>
+					</textarea
+					>
+				</div>
+				<!-- Bordered -->
+				<div class="widget-wrapper">
+					<h3>Bordered</h3>
+					<div
+						style="
+							display: flex;
+							flex-direction: column;
+							gap: 5px;
+							align-items: center;
+						"
+					>
+						<a href="https://qtpoc-ring.netlify.app"
+							><span
+								style="
+									display: inline-block;
+									padding: 5px;
+									border: 1px solid rgb(255, 255, 255);
+									border-image: linear-gradient(
+										180deg,
+										rgb(226, 22, 192) 0%,
+										rgb(242, 191, 23) 20%,
+										rgb(223, 211, 0) 40%,
+										rgb(157, 250, 44) 60%,
+										rgb(12, 77, 255) 80%,
+										rgb(104, 31, 199) 100%
+									);
+									border-image-slice: 1;
+									background: black;
+									font-weight: bold;
+									color: yellow;
+								"
+								>QTPOC Webring</span
+							></a
+						>
+						<div>
+							<a
+								href="https://qtpoc-ring.netlify.app/previous"
+								style="color: yellow"
+								>&lt;&lt; prev</a
+							>
+							<a
+								href="https://qtpoc-ring.netlify.app/random"
+								style="color: yellow"
+								>random</a
+							>
+							<a
+								href="https://qtpoc-ring.netlify.app/next"
+								style="color: yellow"
+								>next &gt;&gt;</a
+							>
+						</div>
+					</div>
+					<textarea>
+<qtpoc-webring widget="bordered">
+ <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt;</a>
+ <a href="https://qtpoc-ring.netlify.app/random">?</a>
+ <span>QTPOC Webring</span>
+ <a href="https://qtpoc-ring.netlify.app">#</a>
+ <a href="https://qtpoc-ring.netlify.app/next">&gt;&gt;</a>
+</qtpoc-webring>
+<script async="" charset="utf-8" src="https://qtpoc-ring.netlify.app/embed.js"></script>
+					</textarea
+					>
+				</div>
+				<!-- Text Only -->
+				<div class="widget-wrapper">
+					<h3>Text Only (No Javascript)</h3>
+					<div style="width: fit-content; margin: auto">
+						<a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt;</a>
+						<a href="https://qtpoc-ring.netlify.app/random">?</a>
+						<span>QTPOC Webring</span>
+						<a href="https://qtpoc-ring.netlify.app">#</a>
+						<a href="https://qtpoc-ring.netlify.app/next">&gt;&gt;</a>
+					</div>
+					<textarea style="width: 100%">
+<div>
+ <a href="https://qtpoc-ring.netlify.app/previous">&lt;&lt;</a>
+ <a href="https://qtpoc-ring.netlify.app/random">?</a>
+ <span>QTPOC Webring</span>
+ <a href="https://qtpoc-ring.netlify.app">#</a>
+ <a href="https://qtpoc-ring.netlify.app/next">&gt;&gt;</a>
+</div>
+</textarea
+					>
+				</div>
+			</div>
+			<p>
+				You're free to edit the widget, style it, and/or remove the random link
+				if you so desire.
+			</p>
+			<p>
+				<i
+					>(Note that the links do not execute client-side javascript. The
+					original and simple versions of the widget also have a fallback when
+					javascript is not enabled.)</i
+				>
+			</p>
+			<p>
+				If you've made your own widget and would like for it to be featured
+				here, you can let me know via email at
+				<span class="email"
+					>espi<span class="e-m-a">a3645778631892l</span>myte@gm<span
+						class="i-l"
+						>y904378323124d</span
+					>ail.com</span
+				>!
+			</p>
+		</div>
+	</div>
+</body>
