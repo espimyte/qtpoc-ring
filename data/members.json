@@ -49,5 +49,11 @@
 		"name": "chubsOS",
 		"url": "https://chubs.tubsandchubs.com",
 		"desc": "disabled QTBIPOC millennial's HTML playground and personal site"
+	},
+	{
+		"name": "The Albinanigans!",
+		"url": "https://www.albinanigans.me/",
+		"button": "/button/albinanigans.png",
+		"desc": "The shenanigans of Albi!"
 	}
 ]
