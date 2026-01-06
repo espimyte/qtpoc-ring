@@ -278,10 +278,11 @@ a:hover {
 .member-desc {
     flex: 6;
     height: fit-content;
-    margin: auto;
+    margin: auto 0;
+    text-align: left;
 }
 .member-desc.empty {
-    display: none;
+    color: gray;
 }
 
 /* Widgets */
@@ -431,5 +432,8 @@ form button:hover {
     }
     .wrapper > :first-child {
         margin-top: 5px;
+    }
+    .member-desc.empty {
+        display: none;
     }
 }
