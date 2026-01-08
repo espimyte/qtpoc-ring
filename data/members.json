@@ -55,5 +55,11 @@
 		"url": "https://www.albinanigans.me/",
 		"button": "/button/albinanigans.png",
 		"desc": "The shenanigans of Albi!"
+	},
+	{
+		"name": "goldensun",
+		"url": "https://goldensun.nekoweb.org/",
+		"button": "/button/goldensun.gif",
+		"desc": "the personal site of a queer artist of colour :) that said, my site isn't primarily art focused. honestly, I'm not really sure what I'm doing with it. here's my whisper to the wind/scream into the abyss on the indie web"
 	}
 ]
