@@ -431,6 +431,9 @@ form button:hover {
     .member-links .empty {
         display: none;
     }
+    .member-links :last-child {
+        margin: 0;
+    }
     textarea[name="description"] {
         height: 60px;
     }
