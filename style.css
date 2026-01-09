@@ -195,7 +195,7 @@ h2 {
 }
 li {
     line-height: 1.4em;
-    font-size: 1.1em;
+    font-size: 1rem;
 }
 li::marker {
     color: cyan;
@@ -280,6 +280,7 @@ a:hover {
     height: fit-content;
     margin: auto 0;
     text-align: left;
+    line-height: 1.3em;
 }
 .member-desc.empty {
     color: gray;
@@ -384,6 +385,9 @@ form button:hover {
     .container {
         padding: 10px 15px;
     }
+    .container > p, li {
+        font-size: 0.95rem;
+    }
     #members-container {
         padding: 10px 0px;
     }
@@ -435,5 +439,8 @@ form button:hover {
     }
     .member-desc.empty {
         display: none;
+    }
+    form input, form textarea {
+        font-size: 0.9em;
     }
 }
