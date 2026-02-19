@@ -85,5 +85,11 @@
 		"url": "https://roflcopterr.nekoweb.org/",
 		"button": "/button/rolfcopterr.png",
 		"desc": "Personal website made as a hobby. Always under construction; Home of many shrines and fun pages! Come check me out :))"
+	},
+	{
+		"name": "My Silly Little Website",
+		"url": "https://if-we-were-villains.nekoweb.org/not_found.html",
+		"button": "/button/mysillylittlewebsite.png",
+		"desc": "Just a personal website where I mess around"
 	}
 ]
