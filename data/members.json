@@ -91,5 +91,16 @@
 		"url": "https://if-we-were-villains.nekoweb.org/not_found.html",
 		"button": "/button/mysillylittlewebsite.png",
 		"desc": "Just a personal website where I mess around"
+	},
+	{
+		"name": "Lilli Net",
+		"url": "https://lillinet.neocities.org/",
+		"desc": "Just a personal website"
+	},
+	{
+		"name": "Vidapon's Artbox",
+		"url": "https://vidapon.net/",
+		"button": "/button/vidapon.gif",
+		"desc": "An art-driven personal website owned by a Nonbinary Filipino person! Come hang out if you're interested in pixelly art, worldbuilding, and the colour pink!"
 	}
 ]
