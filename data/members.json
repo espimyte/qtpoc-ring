@@ -102,5 +102,11 @@
 		"url": "https://vidapon.net/",
 		"button": "/button/vidapon.gif",
 		"desc": "An art-driven personal website owned by a Nonbinary Filipino person! Come hang out if you're interested in pixelly art, worldbuilding, and the colour pink!"
+	},
+	{
+		"name": "mvoidsta",
+		"url": "https://mvoidsta.neocities.org",
+		"button": "/button/mvoidsta.png",
+		"desc": "the eternal nights haven run by a neurodivergent"
 	}
 ]
