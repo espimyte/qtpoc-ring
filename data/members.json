@@ -108,5 +108,11 @@
 		"url": "https://mvoidsta.neocities.org",
 		"button": "/button/mvoidsta.png",
 		"desc": "the eternal nights haven run by a neurodivergent"
+	},
+	{
+		"name": "CompulsiveComputer",
+		"url": "https://compulsivecomputer.net/",
+		"button": "/button/compulsivecomputer.png",
+		"desc": "A site belonging to a particular IBM computer, full of all kinds of stuff from Singapore."
 	}
 ]
