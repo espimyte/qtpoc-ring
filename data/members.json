@@ -142,5 +142,11 @@
 		"url": "https://jups-journal.neocities.org/",
 		"button": "/button/jupsjournal.gif",
 		"desc": "my little home on the internet! Come visit, I detail my fixations, thoughts, and journey to reclaim my Chinese heritage :D"
+	},
+	{
+		"name": "psigone",
+		"url": "https://www.psigone.com/home",
+		"button": "/button/jeanzone.png",
+		"desc": "hi! my name is jean and this is my personal website. i am diasporic Vietnamese and am an oil painter and digital artist, based in the Bay Area, CA."
 	}
 ]
