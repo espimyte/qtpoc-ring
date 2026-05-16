@@ -406,10 +406,8 @@ form button:hover {
         display: none;
     }
     .buttons {
-        position: absolute;
-        opacity: 0.25;
-        z-index: 0;
-        top: 60px;
+        order: 999;
+        padding: 5px;
     }
     #progress {
         display: block;
