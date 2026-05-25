@@ -269,6 +269,10 @@ a {
 a:hover {
     color: white;
 }
+.member-links img {
+    width: 88px;
+    height: 31px;
+}
 .member-links {
     display: flex;
     flex: 2.3;
