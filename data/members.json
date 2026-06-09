@@ -164,5 +164,11 @@
 		"url": "https://gallusgalluss.neocities.org/",
 		"button": "/button/gallusgalluss.png",
 		"desc": "The personal website of Drey, a Black trans artist who loves creatures and games!"
+	},
+	{
+		"name": "AzurePlay",
+		"url": "https://zianu-azureplay.neocities.org/",
+		"button": "/button/azureplay.gif",
+		"desc": "My personal Markdown blog about games, tech, and everything else. Site is on Russian language."
 	}
 ]
