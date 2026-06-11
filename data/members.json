@@ -170,5 +170,11 @@
 		"url": "https://zianu-azureplay.neocities.org/",
 		"button": "/button/azureplay.gif",
 		"desc": "My personal Markdown blog about games, tech, and everything else. Site is on Russian language."
+	},
+	{
+		"name": "CoreDreamz",
+		"url": "https://coredreamz.neocities.org/",
+		"button": "/button/coredreamz.gif",
+		"desc": "My website is an attempt to blend VHS and Dreamcore. It mostly features things from my life, so check it out if you're interested! ;D"
 	}
 ]
