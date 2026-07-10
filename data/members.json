@@ -181,5 +181,11 @@
 		"name": "van anh's site",
 		"url": "https://vananh.neocities.org/",
 		"desc": "a home for my art and creative projects :)"
+	},
+	{
+		"name": "Sunnishinez",
+		"url": "https://sunnishinez.neocities.org/",
+		"desc": "pvz themed website made by a genderless latino!",
+		"button": "/button/sunnishinez.png"
 	}
 ]
