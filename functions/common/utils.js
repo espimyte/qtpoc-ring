@@ -1,3 +1,5 @@
+// From Webring Starter Kit (https://github.com/maxboeck/webring)
+
 let path = require("path");
 let members = require(path.resolve("./data/members.json"));
 
