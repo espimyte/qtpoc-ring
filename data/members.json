@@ -197,5 +197,11 @@
 		"name": "Slumber Party",
 		"url": "https://drowsy.nekoweb.org",
 		"desc": "A pink 'n purple personal site made by a nonbinary indigenous american. ^_^"
+	},
+	{
+		"name": "nebuleii.moe",
+		"url": "https://nebuleii.moe/",
+		"desc": "Purple collection of horrific musings. Belongs to a transmasculine Filipino.",
+		"button": "/button/nebuleii.gif"
 	}
 ]
