@@ -225,5 +225,11 @@
 		"name": "starlike-void",
 		"url": "https://starlike-void.nekoweb.org/",
 		"desc": "plural, schizo, and trans beings learning HTML and storing random trinkets from the internet :]"
+	},
+	{
+		"name": "UpsideDownHourglass",
+		"url": "https://upsidedownhourglass.neocities.org/",
+		"desc": "A personal site for blogging, coding practice, and overall just posting whatever I like. :)",
+		"button": "/button/upsidedown.gif"
 	}
 ]
