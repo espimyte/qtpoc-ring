@@ -232,5 +232,11 @@
 		"url": "https://upsidedownhourglass.neocities.org/",
 		"desc": "A personal site for blogging, coding practice, and overall just posting whatever I like. :)",
 		"button": "/button/upsidedown.gif"
+	},
+	{
+		"name": "Resentfultech",
+		"url": "https://resentfultechworld.neocities.org/",
+		"desc": "Website where I talk about my interests, im still figuring out what I want it to be :)",
+		"button": "/button/resentfultech.png"
 	}
 ]
