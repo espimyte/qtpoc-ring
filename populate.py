@@ -34,12 +34,13 @@ def write_table(members_json):
 
             # Button
             button_link = soup.new_tag("a", target="_blank", href=url)
+            button_link['class'] = 'button-link'
             button_image = soup.new_tag("img", src=button)
             button_link.append(button_image)
             member_links.append(button_link)
 
             if "button" not in member:
-                button_link['class'] = "empty"
+                button_link['class'] += " empty"
 
             # Link
             link = soup.new_tag("a", target="_blank", href=url)
