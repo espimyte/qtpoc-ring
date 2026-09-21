@@ -262,7 +262,7 @@ tr:nth-child(1) td {
     scrollbar-width: thin;
     border: 1px solid rgb(172, 99, 4);
     scrollbar-color: #f7b910 #b67b0d;
-    padding: 5px 0px;
+    padding: 0px 0px;
     background: rgba(0, 0, 0, 0.4);
     image-rendering: pixelated;
 }
