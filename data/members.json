@@ -250,5 +250,11 @@
 		"url": "https://sivonrapmi.neocities.org/",
 		"desc": "This is my personal site where you can find out what I'm up to (and what I'm into).",
 		"button": "/button/sivonrapmi.gif"
+	},
+	{
+		"name": "it's my world",
+		"url": "https://sol-net.neocities.org/",
+		"desc": "the gallery, the compositions...the everything of the (queer and asian?!?!) owner of the entire world.",
+		"button": "/button/solnet.gif"
 	}
 ]
