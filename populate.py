@@ -39,6 +39,10 @@ def write_table(members_json):
             button_link.append(button_image)
             member_links.append(button_link)
 
+            if 'nonstandard' in member:
+                button_link['style'] = 'height: unset'
+                button_image['style'] = 'height: unset'
+
             if "button" not in member:
                 button_link['class'] += " empty"
 
