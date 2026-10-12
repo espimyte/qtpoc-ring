@@ -387,7 +387,6 @@ form button:hover {
     background-color: rgb(5, 117, 74);
 }
 
-
 /* Small screen styling */
 @media screen and (max-width: 620px) {
     body {
