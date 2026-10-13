@@ -280,5 +280,10 @@
 		"desc": "a little personal blog where i may or may not talk about my experiences as a queer se.asian!",
 		"button": "/button/cloversblog.png",
 		"nonstandard": true
+	},
+	{
+		"name": "dayglo.me",
+		"url": "https://dayglo.me",
+		"desc": "A personal site with random thoughts on art, the state of the world and my queer experience. Maybe some essays coming soon."
 	}
 ]
