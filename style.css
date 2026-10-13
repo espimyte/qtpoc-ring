@@ -386,6 +386,10 @@ form button:hover {
     color: white;
     background-color: rgb(5, 117, 74);
 }
+.footnote {
+    font-size: 0.85em;
+    color: rgb(155, 155, 155);
+}
 
 /* Small screen styling */
 @media screen and (max-width: 620px) {
