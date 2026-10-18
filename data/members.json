@@ -285,5 +285,11 @@
 		"name": "dayglo.me",
 		"url": "https://dayglo.me",
 		"desc": "A personal site with random thoughts on art, the state of the world and my queer experience. Maybe some essays coming soon."
+	},
+	{
+		"name": "dogrise \uD83E\uDDE1",
+		"url": "https://dogrise.net",
+		"desc": "DogRise.NET is a digital home for digital dogs, and a personal webpage for bailey (flydayjams) and their creative works!",
+		"button": "/button/dogrise.gif"
 	}
 ]
